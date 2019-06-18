@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>All About Me!</title>
+    </head>
+    <body>
+       
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                    </li>
+            </ul>
+
+        </nav>
+
+         <main>
+         <h1> Use this form to contact me!</h1>
+           
+        <form 
+            action="https://formspree.io/jkatz@rbi.com" 
+            method="POST"
+            >   
+       
+         <div>
+            <label for="your_message">Your Name</label>
+            <input
+                id="your_name" 
+                type="text" 
+                name="your_name"
+                autocomplete="off"
+            > 
+        </div>
+
+        <div>
+            <label for="your_message">Message</label>
+            <textarea
+                id="your_message"
+                name="your_message"
+                cols="100"
+                rows="10"
+            >
+            </textarea>
+        </div>
+
+        <button type="submit">Send</button>
+        <input type="reset"/>
+
+            </form>
+        </main>
+    </body>
+</html>
