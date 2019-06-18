@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tell me about you!</h1>
+        <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                            <a href="contact.html">Contact Me</a>
+                    </li>
+                    <li>
+                            <a href="about_you.html">Tell Me More</a>
+                        </li>
+                </ul>
+    
+        </nav> 
+
+        <main>
+            
+        <form 
+            action="https://formspree.io/jkatz@rbi.com" 
+            method="POST"
+         >
+            <label for="first_name">First Name</label>
+            <input 
+                id= "first_name" 
+                type="text" 
+                name="first_name"
+            >
+
+            <label for="last_name">Last Name</label>
+            <input 
+                id= "last_name" 
+                type="text" 
+                name="last_name"
+            >
+            
+            <label for="email">Email Address</label>
+            <input 
+                id= "email" 
+                type="text" 
+                name="email"
+            >
+        </br>
+            <label for="like_to_code">How much do you like to code?</label>
+            <input 
+                id= "like_to_code" 
+                type="range" 
+                name="like_to_code"
+            >
+    </br>
+            <label>Skills (check all that apply)</label></br>
+            
+            <label for="HTML">HTML</label>
+            <input 
+                id= "HTML" 
+                type="checkbox" 
+                name="HTML"
+            >
+             </br>
+            <label for="CSS">CSS</label>
+            <input 
+                id= "CSS" 
+                type="checkbox" 
+                name="CSS"
+            >
+        </br>
+            <label for="Git">Git</label>
+            <input 
+                id= "Git" 
+                type="checkbox" 
+                name="Git"
+            >
+        </br>
+
+        <label for="fave_lang">What's your favorite language?</label>
+        <select name="fave_lang">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Ruby">Ruby</option>
+                <option value="Python">Python</option>
+            </select>
+    </br>
+
+    <label for="fave_browser">What's your favorite browser?</label>
+    <select name="fave_browser">
+            <option value="Chrome">Chrome</option>
+            <option value="Safari">Safari</option>
+            <option value="Firefox">Firefox</option>
+        </select>
+    </br>
+
+    <label>White Space</label>
+            
+    <label for="Tabs">Tabs</label>
+    <input 
+        id= "Tabs" 
+        type="radio" 
+        name="Tabs"
+    >
+    
+    <label for="Spaces">Spaces</label>
+    <input 
+        id= "Spaces" 
+        type="radio" 
+        name="Spaces"
+    >
+</br>
+
+<label for="how_many_spaces">How many spaces should a tab represent?</label>
+            <input 
+                id= "how_many_spaces" 
+                type="number" 
+                name="how_many_spaces"
+            >
+        </br>
+
+        <label for="color">Favorite Web Color</label>
+            <input 
+                id= "color" 
+                type="color" 
+                name="color"
+            >
+        </br>
+        </br>
+
+        <button type="submit">Send</button>
+        <input type="reset"/>
+    
+    </form>
+
+
+
+
+    </main>
+
+</body>
+</html>
